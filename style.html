@@ -3,16 +3,72 @@
 
 <head> 	
 	<link rel="icon" type="image/png" href="htmlCANTABRIA.ico"/>
-	<title> CANTABRIA INFINITA </title> 	
-</head> 
-<body style="
+	<title> CANTABRIA INFINITA </title>
+	<style>
+	body{
 		text-align:center;
 		background-color:lightblue;
 		margin:70px;
-">
+	}
+	#tabla_Provincias{
+	Display:inline-block;
+	border:grey 2px solid;
+	text-align:left;
+	background-color:grey;
+	font-weight:bold;	
+	}
+	#Solicita{
+	text-align:left;
+	font-weight:bold;
+	}
+	#Título{
+	height:36px;
+	}
+	#CANTABRIA{
+	font-size:4.76mm;
+	display:inline;
+	font-weight:bold;
+	}
+	#Texto{
+	text-decoration:underline;
+	font-style:italic;
+	}
+	#tabla_Provincias_F1C1C1{
+	border: 1px solid;
+	}
+	#tabla_Provincias_F1C2C1{
+	border: 1px solid;
+	}
+	#tabla_Provincias_F1C2C2{
+	border: 1px solid;
+	}
+	#tabla_Provincias_F2C1C1{
+	border: 1px solid;
+	}
+	#tabla_Provincias_F2C2C1{
+	border: 1px solid;
+	}
+	#tabla_Provincias_F2C2C2{
+	border: 1px solid;
+	}
+	#tabla_Provincias_F3{
+	border: 1px solid;
+	text-align:center;
+	}
+	#tabla_Provincias_F4{
+	border: 1px solid;
+	text-align:center;
+	}
+	#ColorLetraF4{
+	color:white;
+	}
+	
+	
+	</style>
+</head> 
+<body>
 
-
-<H4 style="text-align:left;font-weight:bold;">SOLICITA MÁS INFORMACIÓN PARA TUS VACACIONES:</H4>
+<H4 id="Solicita">SOLICITA MÁS INFORMACIÓN PARA TUS VACACIONES:</H4>
 
 <div style="text-align:left;">                                      
 	<p>Nombre: <input type="text" name="nombre" size="40"/>					</p>	
@@ -30,14 +86,14 @@
 
 <div style=" height:1.15em; "> </div>
 
-<H1 style="height:36px;">VACACIONES EN CANTABRIA</H1>
+<H1 id="Título">VACACIONES EN CANTABRIA</H1>
 																										
 <div style=" text-align:left;">
-	<H1 style="font-size:4.76mm;display:inline;font-weight:bold;">CANTABRIA</H1> es una comunidad 
+	<H1 id="CANTABRIA">CANTABRIA</H1> es una comunidad 
 	eminentemente costera y montañosa, como lo demuestra el hecho de que la mayoría
 	de su población vive junto al mar, lo cual con lleva una gran presión humana sobre 
 	el litoral.
-		<span style="text-decoration:underline;font-style:italic;"> 			
+		<span id="Texto"> 			
 	La costa cántabra se extiende por todo el litoral de la región homónima y está 
 	dividida por la Costa Vasca al este y la Costa Verde, al oeste.
 		</span>							
@@ -59,37 +115,31 @@
 																										
 <div style=" height:1.15em; "> 	</div>
 
-<table style="
-	Display:inline-block;
-	border:grey 2px solid;
-	text-align:left;
-	background-color:grey;
-	font-weight:bold;
-	">	
-		<tr>
-			<td rowspan="2" style="border: 1px solid;"><H2> GALICIA    </H2>					</td> 
-			<td style="border: 1px solid;"> LUGO 								</td>	
+<table id="tabla_Provincias">	
+		<tr> 
+			<td id="tabla_Provincias_F1C1C1" rowspan="2"><H2> GALICIA    </H2>					</td> 
+			<td id="tabla_Provincias_F1C2C1"> LUGO 								</td>	
 		</tr>
 	
 		<tr>
-			<td style="border: 1px solid;">A CORUÑA 											</td>
+			<td id="tabla_Provincias_F1C2C2">A CORUÑA 											</td>
 		</tr>	
 	
 		<tr> 
-			<td rowspan="2" style="border: 1px solid;"><H2> PAÍS VASCO 					   </H2></td> 
-			<td style="border: 1px solid;"> GUIPÚZCOA											</td>
+			<td rowspan="2" id="tabla_Provincias_F2C1C1"><H2> PAÍS VASCO 					   </H2></td> 
+			<td id="tabla_Provincias_F2C2C1"> GUIPÚZCOA											</td>
 		</tr>
 	
 		<tr> 
-			<td style="border: 1px solid;"> VIZCAYA												</td>
+			<td id="tabla_Provincias_F2C2C2"> VIZCAYA												</td>
 		</tr>
 	
 		<tr> 
-			<td colspan="2" style="border:1px solid;text-align:center;"> <H2> ASTURIAS 					   	</H2></td> 
+			<td colspan="2" id="tabla_Provincias_F3"> <H2> ASTURIAS 					   	</H2></td> 
 		</tr>
 	
 		<tr>
-			<td colspan="2" style="border:1px solid;text-align:center;"> <H2 style="color:white;">CANTABRIA </H2></td>
+			<td colspan="2" id="tabla_Provincias_F4"> <H2 id="ColorLetraF4">CANTABRIA </H2></td>
 		</tr>
 </table>
 
