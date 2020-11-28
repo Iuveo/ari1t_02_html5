@@ -1,0 +1,90 @@
+body{
+	text-align:center;
+			background-color:lightblue;
+			margin:70px;
+}
+#tabla_Provincias{
+	Display:inline-block;
+	border:grey 2px solid;
+	text-align:left;
+	background-color:grey;
+	font-weight:bold;	
+}
+#Solicita{
+	text-align:left;
+	font-weight:bold;
+}
+#Título{
+	height:36px;
+}
+#CANTABRIA{
+	font-size:4.76mm;
+	display:inline;
+	font-weight:bold;
+}
+.Textos{
+	text-decoration:underline;
+	font-style:italic;
+}
+#Texto2{
+	font-weight:bold;
+}
+#Texto3{
+	text-align:left;
+	font-weight:bold;
+}
+#FotoCosta{
+	width:500px;
+}
+#tabla_Provincias_F1C1C1{
+	border: 1px solid;
+}
+#tabla_Provincias_F1C2C1{
+	border: 1px solid;
+}
+#tabla_Provincias_F1C2C2{
+	border: 1px solid;
+}
+#tabla_Provincias_F2C1C1{
+	border: 1px solid;
+}
+#tabla_Provincias_F2C2C1{
+	border: 1px solid;
+}
+#tabla_Provincias_F2C2C2{
+	border: 1px solid;
+}
+#tabla_Provincias_F3{
+	border: 1px solid;
+	text-align:center;
+}
+#tabla_Provincias_F4{
+	border: 1px solid;
+	text-align:center;
+}
+#ColorLetraF4{
+	color:white;
+}
+#Municipios{
+	text-align:left;
+}
+#Enlaces1{
+	text-align:left;
+	font-weight:bold;
+}
+#Enlaces11{
+	text-align:left;
+	font-style:italic;
+}
+.br{
+	height:1.15em;
+}
+#br2{
+	height:1.1em;
+}
+#br3{
+	height:0.9em;
+}
+.left{
+	text-align:left;
+}
